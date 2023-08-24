@@ -1,0 +1,851 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Open+Sans:wght@400;500&display=swap%27');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#Cabezera{
+    background-color: rgba(30,23,47,1);
+    display: flex;
+    justify-content: space-around;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    color: gray;
+    list-style: none;
+}
+
+ul li{
+    margin: 20px;
+    cursor: pointer;
+}
+
+#boton{
+    padding: 15px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(127, 68, 213, 1) 10%, rgb(48, 133, 218) 90%);
+    border: none;
+    cursor: pointer;
+    color:rgba(255, 255, 255, 0.91);
+}
+
+nav li:hover{
+    color: rgba(255, 255, 255, 0.838);
+}
+
+#lasec{
+    display: flex;
+}
+
+#izqui{
+    background-color: rgb(46, 37, 80, 1);
+    width: 50%;
+    color: white;
+}
+
+#dere{
+    background-color: rgb(142, 164, 157);
+    width: 50%;
+    background-image: url(imagenes/hojasFondo.jpg);
+    background-size: cover;
+    height: 85vh;
+}
+
+#imgde{
+    margin: 60px 150px 0px;
+    height: 500px;
+}
+
+#texo{
+    margin-left: 225px;
+    margin-top: 120px;
+}
+
+#ti{
+    font-size: 70px;
+}
+
+#pa{
+    font-size: 25px;
+}
+
+
+#bi{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgba(255, 255, 255, 0.469);
+    border-radius: 6px;
+    width: 72%;
+}
+.boton1{
+    color: rgba(240, 40, 155, 1);
+    width: 50%;
+    height: 50px;
+    font-size: 17px;
+    margin: 5px 0px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.boton2{
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.945);
+    width: 45%;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px 0px 5px;
+    cursor: pointer;
+}
+
+#tit{
+    margin-top: 25px;
+    margin-left: 550px;
+    font-size: 50px;
+    color: rgba(240, 40, 155, 1);
+    font-family: 'Open Sans', sans-serif;
+    width: 50%;
+}
+
+#laima{
+    width: 500px;
+}
+
+#cajau{
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+#cajanum2{
+    display: flex;
+    width: 100%;
+}
+
+#elte{
+    margin-left: 80px;
+    margin-top: 90px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#alpha{
+    color: rgba(240, 40, 155, 1);
+    font-family: 'Open Sans', sans-serif;
+    font-size:40px;
+}
+
+#cajadash{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(240, 40, 155, 1);
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+#uno{
+    display: flex;
+    margin-top: 12px;
+}
+
+#dos{
+    display: flex;
+    margin-top: 12px;
+}
+
+#tres{
+    display: flex;
+    margin-top: 12px;
+}
+
+#unot{
+    margin-left: 5px;
+}
+
+#dost{
+    margin-left: 5px;
+}
+
+#trest{
+    margin-left: 5px;
+}
+
+#cajapre{
+    background-color: rgba(30,23,47,1);
+    width: 100%;
+    margin-top: 35px;
+    padding: 2%;
+}
+
+#plans{
+    margin-top: 5px;
+    margin-left: 600px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+#lorem{
+    margin-top: 20px;
+    margin-left: 500px;
+    color: white;
+}
+
+#largo{
+    margin-left: 475px;
+    color: white;
+}
+
+#peque{
+    margin-left: 520px;
+    color: white;
+}
+
+#taruno{
+    background-color: whitesmoke;
+    width: 20%;
+    margin-top: 50px;
+    margin-left: 300px;
+    border-radius: 3px;
+}
+
+#imagenhoja{
+margin-left: 100px;
+margin-top: 8px;
+}
+
+#lite{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 120px;
+}
+
+#precio{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    background-color: #dde1e8;
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+    height: 70px;
+}
+
+#pre{
+    margin-left: 90px;
+    margin-top: 8px;
+}
+
+#elfre{
+    margin-left: 8px;
+    margin-top: 4px;
+}
+
+#estre{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#lafull{
+    display: flex;
+}
+
+#full{
+    margin-left: 35px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#chulouno{
+    display: flex;
+}
+
+#chulo{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#fut{
+    margin-left: 40px;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#chulodos{
+    display: flex;
+}
+
+#chulotres{
+    display: flex;
+}
+
+#cus{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#equiz{
+    display: flex;
+}
+
+#eq{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#col{
+    margin-top: 10px;
+    margin-left: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#cajapa{
+    width: 100%;
+}
+
+#lor{
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#delbo{
+    background-color: #dde1e8;
+    padding: 5%;
+    margin-top: 15px;
+}
+
+
+#botonc{
+    width: 70%;
+    padding: 4%;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    background-color: rgb(46, 37, 80, 1);
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 14%;
+}
+
+#tardos{
+    background-color: whitesmoke;
+    width: 20%;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 3px;
+}
+
+#tartres{
+    background-color: whitesmoke;
+    width: 20%;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 3px;
+}
+
+#todaslascajas{
+    display: flex;
+}
+
+#stan{
+    margin-left: 88px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#ulti{
+    margin-left: 94px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#imagenube{
+width: 88px;
+margin-left: 95px;
+}
+
+#imagenporta{
+    width: 88px;
+    margin-left: 95px;
+    }
+
+
+#prec{
+    margin-left: 36px;
+    margin-top: 4px;
+}
+
+#elfo{
+    display: flex;
+    padding: 2%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#rosi{
+    margin-left:6px;
+    color: rgb(239, 21, 145);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#minicaja{
+    margin-left: 600px;
+}
+
+#face{
+    width: 20px;
+    margin-left: 7px;
+}
+
+@media screen and (min-width: 921px) and (max-width: 1279px){
+    
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        color: gray;
+        list-style: none;
+        margin-right: 120px;
+    }
+
+    #texo{
+    margin-left: 160px;
+    margin-top: 170px;
+    width:70%;
+    }
+
+    #ti{
+    font-size: 70px;
+    margin-right:100px;
+    }
+
+    #pa{
+    font-size: 25px;
+    }
+
+    #izqui{
+    background-color: rgb(46, 37, 80, 1);
+    width: 43%;
+    color: white;
+    }
+
+    #dere{
+    background-color: rgb(142, 164, 157);
+    width: 50%;
+    background-image: url(imagenes/hojasFondo.jpg);
+    background-size: cover;
+    height: 85vh;
+    }
+
+    #imgde{
+        height: 500px;
+        margin-top:120px;
+        }
+        
+    #elte {
+            margin-top: 67px;
+            font-family: 'Open Sans', sans-serif;
+    }
+    
+    #cajau {
+            margin-top: 78px;
+            margin-left: 81px;
+    }
+
+    #cajanum2 {
+            display: flex;
+     }
+
+     #tit {
+        margin-top: 25px;
+        margin-left: 368px;
+        font-size: 50px;
+        color: rgba(240, 40, 155, 1);
+        font-family: 'Open Sans', sans-serif;
+        width: 50%;
+    }
+
+    #plans {
+        margin-top: 5px;
+        margin-left: 387px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 40px;
+        color: white;
+    }
+
+    #lorem {
+        margin-top: 20px;
+        margin-left: 263px;
+        color: white;
+    }
+
+    #largo {
+        margin-left: 231px;
+        color: white;
+    }
+    
+    #peque {
+        margin-left: 282px;
+        color: white;
+    }  
+    
+    #imagenhoja {
+        margin-left: 87px;
+        margin-top: 8px;
+    }
+
+    #lite {
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 105px;
+    }
+
+    #taruno {
+        background-color: whitesmoke;
+        width: 20%;
+        margin-top: 50px;
+        margin-left: 97px;
+        border-radius: 3px;
+    }
+
+    #tardos {
+        background-color: whitesmoke;
+        width: 21%;
+        margin-top: 50px;
+        margin-left: 30px;
+        border-radius: 3px;
+    }
+
+    #tartres {
+        background-color: whitesmoke;
+        width: 22%;
+        margin-top: 50px;
+        margin-left: 30px;
+        border-radius: 3px;
+    }
+    
+    #minicaja{
+        margin-left: 300px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 920px){
+    
+    #texo {
+        margin-left: 27px;
+        margin-top: 159px;
+    }
+
+    #imgde {
+        margin-top: 133px;
+        height: 423px;
+        margin-left: 48px;
+    }
+
+    #tit {
+        margin-top: 25px;
+        margin-left: 200px;
+        font-size: 50px;
+        color: rgba(240, 40, 155, 1);
+        font-family: 'Open Sans', sans-serif;
+        width: 50%;
+    }
+
+    #laima {
+        margin-top: 6px;
+        margin-left: -229px;
+        width: 452px;
+    }
+
+    #elte {
+    margin-left: 12px;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    }
+
+    #plans {
+    margin-top: 5px;
+    margin-left: 232px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    color: white;
+    }
+
+    #lorem {
+        margin-top: 20px;
+        margin-left: 111px;
+        color: white;
+    }
+
+    #largo {
+        margin-left: 82px;
+        color: white;
+    }
+
+    #peque {
+        margin-left: 138px;
+        color: white;
+    }
+
+    #taruno {
+        background-color: whitesmoke;
+        width: 33%;
+        margin-top: 50px;
+        margin-left: 40px;
+        border-radius: 3px;
+    }
+
+    #tardos {
+        background-color: whitesmoke;
+        width: 33%;
+        margin-top: 50px;
+        margin-left: 30px;
+        border-radius: 3px;
+    }
+
+    #tartres {
+        background-color: whitesmoke;
+        width: 29%;
+        margin-top: 50px;
+        margin-left: 30px;
+        border-radius: 3px;
+    }
+
+    #imagenhoja {
+        margin-left: 79px;
+        margin-top: 8px;
+    }
+
+    #lite {
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 97px;
+    }
+    
+    #imagenube {
+        width: 88px;
+        margin-left: 66px;
+    }
+    
+    #stan {
+        margin-left: 61px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    #imagenporta {
+        width: 88px;
+        margin-left: 64px;
+    }
+    
+    #ulti {
+        margin-left: 61px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    #elfo {
+        display: flex;
+        padding: 2%;
+        font-family: 'Open Sans', sans-serif;
+        justify-content: space-around;
+        margin-left: 13px;
+    }
+
+    #rosi {
+        margin-left: 1px;
+        color: rgb(239, 21, 145);
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #minicaja {
+        display: flex;
+        margin-left: 64px;
+    }
+    
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+    #texo {
+        margin-left: 2px;
+        margin-top: 28px;
+    }
+
+    #Cabezera{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #imgde {
+        margin: 60px 150px 0px;
+        height: 345px;
+        margin-left: 21px;
+    }
+
+    #tit {
+        margin-top: 25px;
+        margin-left: 75px;
+        font-size: 50px;
+        color: rgba(240, 40, 155, 1);
+        font-family: 'Open Sans', sans-serif;
+        width: 50%;
+    }
+    
+    #pa {
+        font-size: 25px;
+        margin-left: 10px;
+    }
+
+    #laima {
+        width: 369px;
+        margin-left: -179px;
+    }
+
+    #elte {
+        margin-left: 92px;
+        margin-top: 34px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #cajanum2 {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #cajau {
+        margin-top: 36px;
+        margin-left: 250px;
+    }
+
+    #taruno {
+        background-color: whitesmoke;
+        width: 44%;
+        margin-top: 50px;
+        margin-left: 72px;
+        border-radius: 3px;
+        flex-direction: column;
+    }
+
+    #tardos {
+        background-color: whitesmoke;
+        width: 54%;
+        margin-top: 50px;
+        margin-left: 30px;
+        border-radius: 3px;
+    }
+
+    #tartres {
+        background-color: whitesmoke;
+        width: 46%;
+        margin-top: 50px;
+        margin-left: 30px;
+        border-radius: 3px;
+    }
+   
+    #plans {
+        margin-top: 5px;
+        margin-left: 96px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 40px;
+        color: white;
+    }
+    
+    #lorem {
+        margin-top: 20px;
+        margin-left: 55px;
+        color: white;
+    }
+    
+    #largo {
+        margin-left: 47px;
+        color: white;
+    }
+    
+    #peque {
+        margin-left: 57px;
+        color: white;
+    }
+
+    #todaslascajas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #taruno {
+        background-color: whitesmoke;
+        width: 50%;
+        margin-top: 50px;
+        margin-left: 121px;
+        border-radius: 3px;
+    }
+    
+    #imagenhoja {
+        margin-left: 79px;
+        margin-top: 8px;
+    }
+
+    #lite {
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 100px;
+    }
+
+    #tardos {
+        background-color: whitesmoke;
+        width: 50%;
+        margin-top: 50px;
+        margin-left: 121px;
+        border-radius: 3px;
+    }
+
+    #imagenube {
+        width: 88px;
+        margin-left: 74px;
+    }
+    
+    #stan {
+        margin-left: 67px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    #tartres {
+        background-color: whitesmoke;
+        width: 50%;
+        margin-top: 50px;
+        margin-left: 118px;
+        border-radius: 3px;
+    }
+    
+    #imagenporta {
+        width: 88px;
+        margin-left: 77px;
+    }
+
+    #ulti {
+        margin-left: 74px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    #elfo {
+        flex-wrap: wrap;
+        padding: 7%;
+        font-family: 'Open Sans', sans-serif;
+        justify-content: space-around;
+        margin-left: 1px;
+        flex-direction: column;
+    }
+    
+    
+    #rosi {
+        margin-left: 0px;
+        color: rgb(239, 21, 145);
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    #minicaja {
+        margin-top: 34px;
+        display: flex;
+        margin-left: -797px;
+    }
+    
+}
